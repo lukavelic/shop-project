@@ -1,0 +1,13 @@
+.section {
+    height: 100vh;
+    width: auto;
+}
+
+.section.home {
+    height: calc(100vh - 48px);
+    width: auto;
+
+    background-image: url('../assets/coen-van-de-broek-OFyh9TpMyM8-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
