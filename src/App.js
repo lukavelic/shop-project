@@ -5,8 +5,10 @@ import Section from './layouts/Section';
 function App() {
   return (
     <div className="app">
-      <Header></Header>
-      <Section className={'home'}/>
+      <Header/>
+      <Section className={'home'}>
+        <span>We have got what you need.</span>
+      </Section>
       <Section className={'hero'}/>
     </div>
   );

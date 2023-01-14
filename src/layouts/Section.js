@@ -3,7 +3,9 @@ import './Section.css'
 
 const Section = (props) => {
     return (
-        <div className={'section ' + props.className}></div>
+        <div className={'section ' + props.className}>
+            {props.children}
+        </div>
     )
 };
 
