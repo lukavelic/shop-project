@@ -1,0 +1,22 @@
+.button {
+    border-radius: 5px;
+    height: 48px;
+    min-width: 160px;
+
+    margin: 24px;
+
+    font-size: 1rem;
+    
+    border: none;
+}
+
+.button:hover {
+    cursor: pointer;
+
+    color: rgb(17, 121, 100);    
+    transition: color 0.3s ease-in-out;
+}
+
+.button:active {
+    outline: 2px solid rgb(17, 121, 100);
+}
