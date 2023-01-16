@@ -3,7 +3,6 @@ import './Card.css'
 import Button from "../components/Button";
 
 const Card = (props) => {
-    console.log(props)
 
     if(props.className === 'hero-card') {
         return (

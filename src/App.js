@@ -47,6 +47,9 @@ function App() {
             })
           }
         </div>
+        <div className='hero-title bottom'>
+          <span>Visit the shop to find out more.</span>
+        </div>
       </Section>
       <Footer/>
     </div>

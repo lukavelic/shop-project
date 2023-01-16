@@ -32,12 +32,18 @@
 }
 
 .hero-title {
-    margin-top: 48px;
+    margin: 48px 24px 0px 24px;
+
     color: black;
     font-size: 2rem;
     text-align: center;
 
     text-shadow: 2px 2px white;
+}
+
+.hero-title.bottom {
+    margin-top: 0px;
+    margin-bottom: 48px;
 }
 
 .section.hero .card-container {
@@ -56,6 +62,10 @@
     }
     .hero-title {
         margin-top: 24px;
+    }
+    .hero-title.bottom {
+        margin-top: 0px;
+        margin-bottom: 24px;
     }
 }
 

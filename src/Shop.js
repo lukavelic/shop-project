@@ -3,7 +3,7 @@ import Header from "./layouts/Header";
 import Section from "./layouts/Section";
 import Footer from "./layouts/Footer";
 import Card from "./layouts/Card";
-import CartButton from "./components/CartButton";
+import Cart from "./components/Cart";
 
 import img1 from './assets/90322-00_EPIC-SW-CARB-BLUMRNO-CHRM_HERO.webp';
 import img2 from './assets/90622-01_TARMAC-SL7-SW-DI2-REDTNT-METWHTSIL-BLK_HERO.webp';
@@ -59,10 +59,10 @@ const Shop = () => {
             <Header/>
             <Section className={'shop'}>
                 {items.map((item) => {
-                    return <Card className={'shop-card'} img={item.img} title={item.title} description={item.description} price={item.price}></Card>
+                    return <Card key={item.id} className={'shop-card'} img={item.img} title={item.title} description={item.description} price={item.price}></Card>
                 })}
             </Section>
-            <CartButton/>
+            <Cart items={items}/>
             <Footer/>
         </div>
     )
