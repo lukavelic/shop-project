@@ -8,15 +8,14 @@
     font-size: 1rem;
     
     border: none;
+    outline: 2px solid rgb(0,0,0)
 }
 
 .button:hover {
     cursor: pointer;
 
-    color: rgb(17, 121, 100);    
-    transition: color 0.3s ease-in-out;
-}
-
-.button:active {
+    color: rgb(17, 121, 100);
     outline: 2px solid rgb(17, 121, 100);
+    transition: color 0.3s ease-in-out;
+    transition: outline 0.3s ease-in-out;
 }
