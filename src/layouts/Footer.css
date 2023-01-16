@@ -1,0 +1,23 @@
+.footer {
+
+    height: 100%;
+
+    padding: 24px;
+
+    background-color: rgb(50, 50, 50);
+
+    text-align: center;
+}
+
+.footer a, .footer a:visited {
+    display: flex;
+    justify-content: center;
+
+    text-decoration: none;
+    color: white;
+}
+
+.github-logo {
+    margin-left: 5px;
+    width: 24px;
+}

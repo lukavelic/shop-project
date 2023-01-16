@@ -3,6 +3,7 @@ import Header from './layouts/Header';
 import Section from './layouts/Section';
 import Card from './layouts/Card';
 import Button from './components/Button';
+import Footer from './layouts/Footer';
 import { useState } from 'react';
 
 import img1 from './assets/90622-01_TARMAC-SL7-SW-DI2-REDTNT-METWHTSIL-BLK_HERO.webp';
@@ -51,6 +52,7 @@ function App() {
           })
         }
       </Section>
+      <Footer/>
     </div>
   );
 }

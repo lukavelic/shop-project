@@ -19,12 +19,11 @@
     margin: 12px;
 }
 
-.card a {
+.card a, .card a:visited {
     text-decoration: none;
     font-size: 1.25rem;
     font-weight: 500;
-
-    
+    color: black;
 }
 
 .card a:hover {
