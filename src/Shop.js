@@ -52,17 +52,53 @@ const Shop = () => {
         ]
     );
 
-    const [cart, setCart] = useState();
+    const [cart, setCart] = useState(
+        []
+    );
+
+    const clickHandler = (data, remove) => {
+        console.log(data)
+        const itemId = data.target.id;
+        const uniqueItemId = data.target.attributes.getNamedItem('data-unique-item-id').value;
+
+        console.log(itemId, uniqueItemId)
+
+        if(remove) {
+            console.log(remove)
+            const index = cart.findIndex((element) => {
+                console.log(element)
+                return element.uniqueItemId === uniqueItemId;
+            });
+
+            console.log(index)
+            setCart(prevState => {
+                return prevState.filter((item) => (item.uniqueItemId !== uniqueItemId));
+            })
+
+        } else {
+            setCart(prevState => {
+                return [...prevState, {
+                    id: itemId,
+                    uniqueItemId: uniqueItemId,
+                }]
+            });
+
+            console.log(cart)
+        }
+
+        console.log(cart)
+    }
 
     return (
         <div className="shop">
+            {console.log(cart)}
             <Header/>
             <Section className={'shop'}>
                 {items.map((item) => {
-                    return <Card key={item.id} className={'shop-card'} img={item.img} title={item.title} description={item.description} price={item.price}></Card>
+                    return <Card key={item.id} id={item.id} className={'shop-card'} img={item.img} title={item.title} description={item.description} price={item.price} clickHandler={clickHandler}></Card>
                 })}
             </Section>
-            <Cart items={items}/>
+            <Cart items={items} cart={cart} clickHandler={clickHandler}/>
             <Footer/>
         </div>
     )
