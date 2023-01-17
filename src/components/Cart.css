@@ -29,6 +29,11 @@
     fill: rgb(29, 29, 29);
 }
 
+.cart-quantity {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 /* Modal */
 
 .cart-modal {

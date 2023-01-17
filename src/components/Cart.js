@@ -47,6 +47,9 @@ const Cart = (props) => {
         <div className="cart">
             <div className="cart-button" onClick={modalHandler}>
                 <CartIcon viewBox="0 0 24 24"/>
+                <div className="cart-quantity">
+                    {props.cart.length >=1 ? props.cart.length : ''}
+                </div>
             </div>
             <div className={`cart-modal ${isActive ? 'show' : 'hide'}`}>
                 <div className="modal-content">
