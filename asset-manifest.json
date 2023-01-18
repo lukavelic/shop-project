@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shop-project/static/css/main.c5894e69.css",
-    "main.js": "/shop-project/static/js/main.71b801e2.js",
+    "main.js": "/shop-project/static/js/main.73a553ce.js",
     "static/media/coen-van-de-broek-OFyh9TpMyM8-unsplash.jpg": "/shop-project/static/media/coen-van-de-broek-OFyh9TpMyM8-unsplash.f09cd2889b4f2f9095da.jpg",
     "static/media/90322-00_EPIC-SW-CARB-BLUMRNO-CHRM_HERO.webp": "/shop-project/static/media/90322-00_EPIC-SW-CARB-BLUMRNO-CHRM_HERO.28589bdd5999a6e45982.webp",
     "static/media/90622-01_TARMAC-SL7-SW-DI2-REDTNT-METWHTSIL-BLK_HERO.webp": "/shop-project/static/media/90622-01_TARMAC-SL7-SW-DI2-REDTNT-METWHTSIL-BLK_HERO.689e84b7a657261b064a.webp",
@@ -13,10 +13,10 @@
     "static/media/close.svg": "/shop-project/static/media/close.dcd6ff2fb87202eee824900db260e517.svg",
     "static/media/menu.svg": "/shop-project/static/media/menu.0f4d3f1dfdaa66cc9d25497c0659da74.svg",
     "main.c5894e69.css.map": "/shop-project/static/css/main.c5894e69.css.map",
-    "main.71b801e2.js.map": "/shop-project/static/js/main.71b801e2.js.map"
+    "main.73a553ce.js.map": "/shop-project/static/js/main.73a553ce.js.map"
   },
   "entrypoints": [
     "static/css/main.c5894e69.css",
-    "static/js/main.71b801e2.js"
+    "static/js/main.73a553ce.js"
   ]
 }
